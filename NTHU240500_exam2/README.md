@@ -54,6 +54,9 @@ Homework 3 TF Lite, WiFi and MQTT.
     sudo mbed compile --source . --source ~/ee2405/mbed-os/ -m B_L4S5I_IOT01A -t GCC_ARM -f
     ```
 
+    * If you compile success, then you will see this in your terminal.
+        <img src="https://github.com/SYJINTW/NTHU240500_hw3/blob/master/NTHU240500_exam2/img/compile_success.png?raw=true">
+    
 * Input command from screen.
     
     ```sh
@@ -95,37 +98,45 @@ Homework 3 TF Lite, WiFi and MQTT.
 <!-- Screenshot -->
 ## Results
 
-* Picoscope result at 1 Hz
+* Connect successfully with WIFI and MQTT Client.
   
-    <img src="https://github.com/SYJINTW/NTHU240500_hw2/blob/master/hw2/src/wv_1Hz.png?raw=true">  
+    <img src="https://github.com/SYJINTW/NTHU240500_hw3/blob/master/NTHU240500_exam2/img/connect_success.png?raw=true">  
 
-* Python Matplotlib at 1 Hz
+* Gesture MODE (default 30 degree)
 
-    <img src="https://github.com/SYJINTW/NTHU240500_hw2/blob/master/hw2/src/py_1Hz.png?raw=true">
+    <img src="https://github.com/SYJINTW/NTHU240500_hw3/blob/master/NTHU240500_exam2/img/select_mode_1.png?raw=true">
 
-* Picoscope result at 82.6 Hz
+* Gesture MODE (change to 40 degree)
     
-    <img src="https://github.com/SYJINTW/NTHU240500_hw2/blob/master/hw2/src/wv_82.6Hz.png?raw=true">  
+    <img src="https://github.com/SYJINTW/NTHU240500_hw3/blob/master/NTHU240500_exam2/img/select_mode_2.png?raw=true"> 
 
-* Python Matplotlib at 82.6 Hz
+* Gesture MODE (end)
     
-    <img src="https://github.com/SYJINTW/NTHU240500_hw2/blob/master/hw2/src/py_82.6Hz.png?raw=true">
+    <img src="https://github.com/SYJINTW/NTHU240500_hw3/blob/master/NTHU240500_exam2/img/select_mode_end.png?raw=true">
 
-* Picoscope result at 500 Hz
+* Detection MODE (start)
 
-    <img src="https://github.com/SYJINTW/NTHU240500_hw2/blob/master/hw2/src/wv_500Hz.png?raw=true">  
+    <img src="https://github.com/SYJINTW/NTHU240500_hw3/blob/master/NTHU240500_exam2/img/detection_mode_1.png?raw=true">  
 
-* Python Matplotlib at 500 Hz
+* Detection MODE (5 times)
 
-    <img src="https://github.com/SYJINTW/NTHU240500_hw2/blob/master/hw2/src/py_500Hz.png?raw=true">
+    <img src="https://github.com/SYJINTW/NTHU240500_hw3/blob/master/NTHU240500_exam2/img/detection_mode_2.png?raw=true">
 
-* Picoscope result at 826.3 Hz (cut-off frequency)
+* Detection MODE (end)
   
-    <img src="https://github.com/SYJINTW/NTHU240500_hw2/blob/master/hw2/src/wv_826Hz.png?raw=true"> 
+    <img src="https://github.com/SYJINTW/NTHU240500_hw3/blob/master/NTHU240500_exam2/img/detection_mode_end.png?raw=true"> 
+
+* Safe MODE (by command, actually don't need)
+  
+    <img src="https://github.com/SYJINTW/NTHU240500_hw3/blob/master/NTHU240500_exam2/img/safe_mode.png?raw=true"> 
+
+* Selection MODE (Video for Demo)
+    [![](http://img.youtube.com/vi/UrSFGXki5qI/0.jpg)](http://www.youtube.com/watch?v=UrSFGXki5qI "selection_mode")
+* Detection MODE (Video for Demo)
+    [![](http://img.youtube.com/vi/WD26TGfL0H0/0.jpg)](http://www.youtube.com/watch?v=WD26TGfL0H0 "detection_mode")
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Electronics Tutorials](https://www.electronics-tutorials.ws/filter/filter_2.html)
 * [Embedded System Lab](https://www.ee.nthu.edu.tw/ee240500/)
 
