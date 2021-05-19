@@ -130,10 +130,14 @@ Homework 3 TF Lite, WiFi and MQTT.
   
     <img src="https://github.com/SYJINTW/NTHU240500_hw3/blob/master/NTHU240500_exam2/img/safe_mode.png?raw=true"> 
 
-* Selection MODE (Video for Demo)
+* Selection MODE (Video for Demo)  
+
     [![](http://img.youtube.com/vi/UrSFGXki5qI/0.jpg)](http://www.youtube.com/watch?v=UrSFGXki5qI "selection_mode")
-* Detection MODE (Video for Demo)
+
+* Detection MODE (Video for Demo)  
+
     [![](http://img.youtube.com/vi/WD26TGfL0H0/0.jpg)](http://www.youtube.com/watch?v=WD26TGfL0H0 "detection_mode")
+
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
